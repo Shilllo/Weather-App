@@ -13,6 +13,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 header h1 {
@@ -100,4 +101,42 @@ button svg {
 
 .value {
   text-align: center;
+}
+
+#icon {
+  width: 90px;
+}
+
+#hourWeather {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#hourWeather > button {
+  width: 100px;
+}
+
+.border {
+  width: 450px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+#container {
+  width: fit-content;
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card p {
+  color: white;
+  font-size: 25px;
 }
