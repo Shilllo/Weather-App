@@ -21,8 +21,8 @@ header h1 {
 }
 
 input {
-  width: 350px;
-  height: 20px;
+  width: 450px;
+  height: 25px;
   background-color: rgb(135, 209, 238);
   border: 0px;
   border: 1px solid white;
@@ -34,13 +34,20 @@ input:hover {
   border: 1px solid rgb(135, 209, 238);
 }
 
+form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 button {
   background-color: rgb(135, 209, 238);
   border: 0px;
   text-align: center;
   border: 1px solid white;
-  height: 24px;
-  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+  padding: 0;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -50,8 +57,7 @@ button:hover {
 
 button svg {
   color: rgb(58, 58, 236);
-  width: 10px;
-  margin-top: 2px;
+  width: 20px;
 }
 
 #currentWeather {
@@ -89,5 +95,9 @@ button svg {
 #weatherInfo div h4,
 #weatherInfo div {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.value {
+  text-align: center;
 }
