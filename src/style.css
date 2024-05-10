@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/cloudy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+}
+
+input {
+  width: 350px;
+  height: 20px;
+  background-color: rgb(135, 209, 238);
+  border: 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+input:hover {
+  background-color: white;
+  border: 1px solid rgb(135, 209, 238);
+}
+
+button {
+  background-color: rgb(135, 209, 238);
+  border: 0px;
+  text-align: center;
+  border: 1px solid white;
+  height: 24px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid rgb(135, 209, 238);
+}
+
+button svg {
+  color: rgb(58, 58, 236);
+  width: 10px;
+  margin-top: 2px;
+}
+
+#currentWeather {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#currentWeather h2 {
+  color: white;
+  font-size: 40px;
+}
+
+#temperature {
+  display: flex;
+  gap: 10px;
+}
+
+#temperature p {
+  font-size: 50px;
+  color: white;
+  margin: 20px 0 20px 0;
+}
+
+#temperature svg {
+  color: white;
+  width: 50px;
+}
+
+#weatherInfo {
+  display: flex;
+  gap: 30px;
+}
+
+#weatherInfo div h4,
+#weatherInfo div {
+  color: white;
+  font-size: 20px;
+}
