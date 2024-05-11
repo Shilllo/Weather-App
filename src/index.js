@@ -1,7 +1,5 @@
 import "./style.css";
 import { moveLeft, moveRight } from "./slider.js";
-import { showCurrentWeather } from "./getCurrentWeather.js";
-import { showHourWeather } from "./getHourWeather.js";
 import { getData } from "./getData.js";
 
 getData("Moscow");
