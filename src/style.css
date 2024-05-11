@@ -140,3 +140,25 @@ button svg {
   color: white;
   font-size: 25px;
 }
+
+h4 {
+  font-size: 35px;
+  color: white;
+}
+
+#forecast {
+  display: flex;
+  gap: 15px;
+}
+
+#forecast .day p {
+  color: white;
+  font-size: 25px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}

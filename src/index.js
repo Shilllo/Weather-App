@@ -1,15 +1,17 @@
 import "./style.css";
 import { moveLeft, moveRight } from "./slider.js";
-import { getCurrentWeather } from "./getCurrentWeather.js";
-import { getHourWeather } from "./getHourWeather.js";
+import { showCurrentWeather } from "./getCurrentWeather.js";
+import { showHourWeather } from "./getHourWeather.js";
+import { getData } from "./getData.js";
 
-getCurrentWeather("Moscow");
-getHourWeather("Moscow");
+getData("Moscow");
+// showCurrentWeather(getData("Moscow"));
+// showHourWeather(getData("Moscow"));
 
 document.querySelector("button").addEventListener("click", function () {
   if (document.querySelector("input").value) {
-    getCurrentWeather(document.querySelector("input").value);
-    getHourWeather(document.querySelector("input").value);
+    getData(document.querySelector("input").value);
+    // showHourWeather(getData(document.querySelector("input").value));
   }
 });
 
@@ -22,8 +24,8 @@ document.querySelector("form").addEventListener("keydown", function (event) {
 document.addEventListener("keyup", (event) => {
   if (event.code === "Enter") {
     if (document.querySelector("input").value) {
-      getCurrentWeather(document.querySelector("input").value);
-      getHourWeather(document.querySelector("input").value);
+      getData(document.querySelector("input").value);
+      // showhourWeather(getData(document.querySelector("input").value));
     }
   }
 });
