@@ -4,15 +4,15 @@ let direction = 0;
 function moveLeft() {
   if (positionX < 0) {
     const slider = document.querySelector("#container");
-    positionX += 450;
+    positionX += 900;
     slider.style.transform = `translateX(${positionX}px)`;
   }
 }
 
 function moveRight() {
-  if (positionX > -3150) {
+  if (positionX > -2700) {
     const slider = document.querySelector("#container");
-    positionX -= 450;
+    positionX -= 900;
     slider.style.transform = `translateX(${positionX}px)`;
   }
 }
