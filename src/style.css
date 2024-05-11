@@ -24,15 +24,15 @@ header h1 {
 input {
   width: 450px;
   height: 25px;
-  background-color: rgb(135, 209, 238);
+  background-color: white;
   border: 0px;
   border: 1px solid white;
   border-radius: 10px;
 }
 
 input:hover {
-  background-color: white;
-  border: 1px solid rgb(135, 209, 238);
+  background-color: rgb(135, 209, 238);
+  border: 1px solid white;
 }
 
 form {
@@ -41,7 +41,7 @@ form {
   gap: 5px;
 }
 button {
-  background-color: rgb(135, 209, 238);
+  background-color: white;
   border: 0px;
   text-align: center;
   border: 1px solid white;
@@ -52,8 +52,8 @@ button {
 }
 
 button:hover {
-  background-color: white;
-  border: 1px solid rgb(135, 209, 238);
+  background-color: rgb(135, 209, 238);
+  border: 1px solid white;
 }
 
 button svg {
